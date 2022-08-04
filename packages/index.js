@@ -11,6 +11,8 @@ import hTable from "./table/index.js"
 import hTextarea from "./textarea/index.js"
 import hTree from "./tree/index.js"
 import hMessage from "./message/index.js"
+import hCarousel from "./carousel/index.js"
+import hCarousel3d from "./carousel-3d/index.js"
 
 const install = (app) => {
   app.use(hButton)
@@ -22,12 +24,13 @@ const install = (app) => {
   app.use(hTree)
   app.use(hSwitch)
   app.use(hTable)
-
+  app.use(hCarousel)
+  app.use(hCarousel3d)
   app.config.globalProperties.$message = hMessage
 }
 
 const hzxui = {
   install
 }
-export { hButton ,hInput , hTextarea ,hSpace , hSelect ,hRadio ,hTree ,hSwitch,hTable, hMessage ,}
+export { hButton ,hInput , hTextarea ,hSpace , hSelect ,hRadio ,hTree ,hSwitch,hTable, hMessage ,hCarousel ,hCarousel3d}
 export default hzxui

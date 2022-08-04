@@ -67,10 +67,8 @@ export default [
     'title-cn': '交互',
     list: [
       { 'title': 'message 消息提示', path: '/hzxui/message' },
-      // {
-      //   'title': 'dialog 弹窗',
-      //   path: '/hzxui/dialog'
-      // },
+      { 'title': 'carousel 基础轮播图', path: '/hzxui/carousel' },
+      { 'title': 'carousel-3d 层叠轮播图', path: '/hzxui/carousel-3d'},
     ]
   }
 ]

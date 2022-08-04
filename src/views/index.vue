@@ -22,7 +22,7 @@ function tohzxui(){
   sessionStorage.setItem("tabIndex", 1); 
 }
 const toGithub = ()=>{
-  window.open('http://github.com/hzx17')
+  window.open('https://github.com/hzx17/hzx-ui')
 }
 </script>
 

@@ -93,6 +93,16 @@ export default [
         path: 'message',
         name: 'message 消息提示',
         component: () => import('/packages/message/doc/doc.md')
+      },
+      {
+        path: 'carousel',
+        name: 'carousel 轮播图',
+        component: () => import('/packages/carousel/doc/doc.md')
+      },
+      {
+        path: 'carousel-3d',
+        name: 'carousel-3d 层叠轮播图',
+        component: () => import('/packages/carousel-3d/doc/doc.md')
       }
     ]
   }
