@@ -10,7 +10,6 @@
        <input type="radio" :name="optionTab" :checked="item.value == modelVal" :value="modelVal" :disabled="item.disabled">
        <span :class="{active: item.value == modelVal}" >{{item.label}}</span>
     </div>
-      
   </div>
 </template>
 
